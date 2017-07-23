@@ -1,7 +1,8 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+var name = prompt ("Enter your full name: ");
+var type = prompt ("Enter type ID: ");
+var id = prompt ("Enter ID: ");
+
+console.log ("Hello, my full name is " + name);
+console.log ("My type ID is " + type + " ID " + id);
 
 
