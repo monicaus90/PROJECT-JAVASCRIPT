@@ -1,7 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+var text ="Hello, This is my first JavaScript script";
+console.log(text);
 
