@@ -1,7 +1,8 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+var age = prompt("Enter your age: ");
 
+if (age>=18) {
+  console.log ("Welcome to party"); 
+} else {
+  console.log ("Sorry, you can not join the party")
+}
 
