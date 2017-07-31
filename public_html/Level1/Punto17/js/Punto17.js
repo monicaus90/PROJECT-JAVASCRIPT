@@ -1,7 +1,7 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+var a = prompt("Enter value of A: ");
+var b = prompt("Enter value of B: ");
+var c = prompt("Enter value of C: ");
 
+var rule = (c * b)/ a ;
 
+console.log ("Value of X is: " + rule);
