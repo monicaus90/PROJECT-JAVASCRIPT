@@ -1,7 +1,5 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
+function salve (){
+  var name = $("#text39a").val();
+  var print = ("Hello, I am " + name + "and I am happy to be learning JavaScript using Jquery");
+  $("#textprint").val(print);
+}
