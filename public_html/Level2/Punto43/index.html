@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
   <head>
-    <title>TODO supply a title</title>
+    <title>P43</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <div>TODO write content</div>
+    <div>
+      <div class="jumbotron">
+        <h1>P43</h1>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Thank You</a></p>
+      </div>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="number1"> variable 1 </label>
+          <input type="text" class="form-control" id="number1" placeholder="VARIABLE1">
+          <label for="number1"> variable 2 </label>
+          <input type="text" class="form-control" id="number2" placeholder="VARIABLE2">
+        </div>
+        <div>
+          <button id="process" type="button" class="btn btn-default">Process</button>
+        </div>
+      </form>
+        <div class="jumbotron">
+        <p  id="exp1"></p>
+        <p  id="exp2"></p>
+        <p  id="mult"></p>
+        <p  id="div1"></p>
+        <p  id="div2"></p>
+        <p  id="mod"></p>
+      </div>
+      </div>
+    
+    <script src="../../node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../node_modules/angular/angular.min.js" type="text/javascript"></script>
+    <script src="js/Punto43.js" type="text/javascript"></script>
   </body>
 </html>
