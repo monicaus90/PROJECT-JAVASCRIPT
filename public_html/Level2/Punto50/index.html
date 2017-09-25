@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
   <head>
-    <title>TODO supply a title</title>
+    <title>P50</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <div>TODO write content</div>
+    <div>
+      <div class="jumbotron">
+        <h1>P50</h1>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Thank you</a></p>
+      </div>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="email">PROBLEM:</label>
+          <button type="button" class="btn btn-primary" id="text1">Problem 1</button>
+          <button type="button" class="btn btn-success" id="text2">Problem 2</button>
+          <button type="button" class="btn btn-warning" id="text3">Problem 3 </button>
+        </div>
+
+      </form>
+
+    </div>
+    <div>
+    <div class="jumbotron" id="problem1">
+      <form>
+        <input type="number" class="form-group" id="sol1" placeholder="Enter number of employee">
+        <button id="process" type="button" class="btn btn-info">Submit</button>
+      </form>
+    </div>
+    <div class="jumbotron" id="problem2">
+      <form>
+        <input type="number" class="form-group" id="sol2" placeholder="Enter hours worked">
+        <button id="process2" type="button" class="btn btn-info">Submit</button>
+      </form>
+    </div>
+    <div class="jumbotron" id="problem3"></div>
+    </div>
+    <script src="../../node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../node_modules/angular/angular.min.js" type="text/javascript"></script>
+    
+    <script src="js/Punto50.js" type="text/javascript"></script>
   </body>
 </html>
