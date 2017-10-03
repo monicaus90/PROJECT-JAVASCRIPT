@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
   <head>
-    <title>TODO supply a title</title>
+    <title>P51</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <div>TODO write content</div>
+    <div>
+      <div class="jumbotron">
+        <h1>P51</h1>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Thank you</a></p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3">
+            <h1 class="text-center">THE RUMBA FEST</h1>
+            <h3 class="text-center">Enter your age</h3>
+            <form class="form-inline text-center">
+              <input type="number" class="form-control" placeholder="You age" id="age">
+              <button type="button" id="process" class="btn btn-success">OK</button>
+            </form>
+            <h2 id="info" class="text-center"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../node_modules/angular/angular.min.js" type="text/javascript"></script>
+    <script src="js/Punto51.js" type="text/javascript"></script>
   </body>
 </html>
