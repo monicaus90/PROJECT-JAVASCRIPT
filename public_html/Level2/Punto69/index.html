@@ -1,16 +1,310 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
   <head>
-    <title>TODO supply a title</title>
+    <title>P69</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <div>TODO write content</div>
+    <div>
+      <!--Encabezado-->
+      <div class="jumbotron">
+        <h1 class="text-center">P69</h1>
+        <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Back</a></p>
+      </div>
+      <div class="text-center"><h1><strong>CURRICULUM VITAE</strong></h1></div>
+      <div class="text-center"><h3>Select an option to enter your data:</h3></div>
+
+      <!--Menú-->
+      <div class="container">
+        <div class="panel-group" id="accordion">
+
+          <!--Option 1-->
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">
+              <h4 class="panel-title">
+                <a class= "btn btn-lg btn-success" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Personal Information</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body">
+
+                <!--form of the option1-->
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Name:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="name1" placeholder="Enter your name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="lastname">LastName:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="lastname1" placeholder="Enter your lastname">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="address">Address:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="address1" placeholder="Enter your address">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Phone:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="phone1" placeholder="Enter your phone">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="email1" placeholder="Enter your email">
+                    </div>
+                  </div>
+                  <div class="form-group text-center">
+                    <a  class="btn btn-lg btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapse1" id="capture1">OK</a>
+                  </div> 
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!--Option 2-->
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">
+              <h4 class="panel-title">
+                <a class= "btn btn-lg btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Family Reference</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+
+                <!--form the option 2-->
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Name:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="name2" placeholder="Enter your name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Phone:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="phone2" placeholder="Enter your phone">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Name:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="name3" placeholder="Enter your name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Phone:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="phone3" placeholder="Enter your phone">
+                    </div>
+                  </div>
+                </form>
+                <div class="form-group text-center">
+                  <a class="btn btn-lg btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapse2" id="capture2">OK</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+
+          <!--Option 3-->
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">
+              <h4 class="panel-title">
+                <a class="btn btn-lg btn-warning"data-toggle="collapse" data-parent="#accordion" href="#collapse3">Work Reference</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+
+                <!--form the option 3-->
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Name:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="name4" placeholder="Enter your name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Phone:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="phone4" placeholder="Enter your phone">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Name:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="name5" placeholder="Enter your name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Phone:</label>
+                    <div class="col-sm-10"> 
+                      <input type="text" class="form-control" id="phone5" placeholder="Enter your phone">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="form-group text-center">
+                <a class="btn btn-lg btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapse3" id="capture3">OK</a>
+              </div>
+            </div>
+          </div>
+          <!--Option 4-->
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">
+              <h4 class="panel-title">
+                <a class= "btn btn-lg btn-danger" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Professional Profile Description</a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse in">
+              <div class="panel-body">
+
+                <!--form the option 4-->
+                <label for="comment">Write:</label>
+                <textarea class="form-control" rows="5" id="comment1"></textarea>
+                <div class="form-group text-center">
+                  <a class="btn btn-lg btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapse4" id="capture4">OK</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <button id="print" type="button" class="btn btn-info">Print Curriculum Vitae</button>
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">CURRICULUM VITAE</h4>
+          </div>
+          <div class="modal-body">
+
+            <!--Curriculum vitae print-->
+            <div class="panel panel-primary">
+              <div class="panel-heading text-center">Curriculum Vitae</div>
+              <div class="text-center"><img src="img/person-1824144_960_720.png" alt=""/></div>
+              <div class="panel-body">
+
+
+                <!--Information Print--> 
+                <div class="jumbotron">  
+                  <form class="form-inline">
+                    <div class="text-center"><label class="text-primary">Personal Information</label></div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2" >Name:</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" id="pname1" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2">LastName:</label>
+                      <div class="col-md-10"> 
+                        <input type="text" class="form-control" id="plastname1" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2" >Address:</label>
+                      <div class="col-md-10"> 
+                        <input type="text" class="form-control" id="paddress1" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" >Phone:</label>
+                      <div class="col-md-10"> 
+                        <input type="text" class="form-control" id="pphone1" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2" >Email:</label>
+                      <div class="col-md-10"> 
+                        <input type="text" class="form-control" id="pemail1" disabled="">
+                      </div>
+                    </div>
+
+                    <div class="text-center"><label class="text-primary">Personal Reference</label></div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2" >Name:</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" id="pname2" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2">Phone:</label>
+                      <div class="col-md-10"> 
+                        <input type="text" class="form-control" id="pphone2" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2" >Name:</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" id="pname3" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2">Phone:</label>
+                      <div class="col-md-10"> 
+                        <input type="text" class="form-control" id="pphone3" disabled="">
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <label class="text-primary">Work Reference</label></div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2" >Name:</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" id="pname4" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2">Phone:</label>
+                      <div class="col-md-10"> 
+                        <input type="text" class="form-control" id="pphone4" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2" >Name:</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" id="pname5" disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-2">Phone:</label>
+                      <div class="col-md-10"> 
+                        <input type="text" class="form-control" id="pphone5" disabled="">
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <label class="text-primary">Profile Description</label></div>
+                      <div class="text-center"><input type="text" class="form-control" id="comment2" disabled=""></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#res" id="printtotal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../node_modules/angular/angular.min.js" type="text/javascript"></script>
+    <script src="../Punto69/js/Punto69.js" type="text/javascript"></script>
   </body>
 </html>
