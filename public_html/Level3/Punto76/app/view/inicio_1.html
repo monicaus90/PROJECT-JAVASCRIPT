@@ -1,0 +1,22 @@
+<div class ="jumbotron">
+  <div class="container text-center">
+       <div class="text-center">
+         <form class="form-inline" ng-submit="information()">
+        <div class="form-group">
+          <label for="name">Enter your name:</label>
+          <input type="name" class="form-control" ng-model="infom.name">
+        </div>
+        <div class="form-group">
+          <label for="age">Enter your age:</label>
+          <input type="age" class="form-control" ng-model="infom.age">
+        </div>
+        <button type="reset" class="btn btn-danger" value="reset" ng-click="reset()">Reset</button>
+        <button type="submit" class="btn btn-success">Send</button>
+      </form>
+    </div>
+  </div>
+  <div class="jumbotron" ng-hide="view1">
+    <div class="container text-center">
+      {{resp1}}
+    </div>
+  </div>
